@@ -1,0 +1,26 @@
+{
+  "name": "igme.430.streamingmedia",
+  "version": "1.0.0",
+  "description": "using node to stream basic media content",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"tests complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IGM-RichMedia-at-RIT/streaming-media-assignment.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IGM-RichMedia-at-RIT/streaming-media-assignment/issues"
+  },
+  "homepage": "https://github.com/IGM-RichMedia-at-RIT/streaming-media-assignment#readme",
+  "devDependencies": {
+    "eslint": "^5.5.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0"
+  }
+}
